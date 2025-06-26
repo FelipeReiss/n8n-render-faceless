@@ -15,5 +15,21 @@ services:
         value: "0.0.0.0"
       - key: N8N_PROTOCOL
         value: "https"
+      - key: WEBHOOK_TUNNEL_URL
+        value: "https://n8n-faceless.onrender.com/"
       - key: WEBHOOK_URL
         value: "https://n8n-faceless.onrender.com/"
+      - key: N8N_RUNNERS_ENABLED
+        value: "true"
+      - key: N8N_USER_MANAGEMENT_DISABLED
+        value: "true"
+      - key: N8N_DEFAULT_RUNNER_HOST
+        value: "main"
+      - key: N8N_BASIC_AUTH_ACTIVE
+        value: "true"
+      - key: N8N_BASIC_AUTH_USER
+        value: "admin"
+      - key: N8N_BASIC_AUTH_PASSWORD
+        value: "n8n#passwd"
+      - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
+        value: "true"
