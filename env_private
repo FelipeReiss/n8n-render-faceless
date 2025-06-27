@@ -5,8 +5,8 @@ N8N_HOST=0.0.0.0
 N8N_PROTOCOL=https
 
 # URL pública do Render
-WEBHOOK_URL=https://n8n-faceless.onrender.com/
-WEBHOOK_TUNNEL_URL=https://n8n-faceless.onrender.com/
+WEBHOOK_URL=https://n8n-render-faceless.onrender.com/
+WEBHOOK_TUNNEL_URL=https://n8n-render-faceless.onrender.com/
 
 # Desativa modo de gerenciamento por e-mail
 N8N_USER_MANAGEMENT_DISABLED=false
