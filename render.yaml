@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: n8n-faceless
+    name: n8n-render-faceless
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
@@ -16,9 +16,9 @@ services:
       - key: N8N_PROTOCOL
         value: "https"
       - key: WEBHOOK_TUNNEL_URL
-        value: "https://n8n-faceless.onrender.com/"
+        value: "https://n8n-render-faceless.onrender.com/"
       - key: WEBHOOK_URL
-        value: "https://n8n-faceless.onrender.com/"
+        value: "https://n8n-render-faceless.onrender.com/"
       - key: N8N_RUNNERS_ENABLED
         value: "true"
       - key: N8N_USER_MANAGEMENT_DISABLED
