@@ -28,6 +28,6 @@ services:
       - key: N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS
         value: "true"
       - key: DATABASE_URL
-        value: postgresql://n8ndb_gcea_user:i51r8M6tHFmN3GxSZR6iEnGThQ5D0GxV@dpg-d1fcieili9vc739t1jfg-a/n8ndb_gcea
+        value: "postgresql://n8ndb_gcea_user:i51r8M6tHFmN3GxSZR6iEnGThQ5D0GxV@dpg-d1fcieili9vc739t1jfg-a/n8ndb_gcea"
       - key: DB_POSTGRESDB_SSL_REJECT_UNAUTHORIZED
         value: "false"
